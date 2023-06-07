@@ -20,7 +20,7 @@ sequence learning via LSTMs.
 • Feature Extractor 3: Inception-ResNet-V1 [Szegedy et al. (2015)] pre-trained on VGGFace2 [Cao et al. (2018)].
 
 ### Results
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/IoU.png" />
+<img src="Images/All_Experiments.png" />
 11 Experiments were conducted with the three proposed pipelines, each experiment differing in Train Data size, No. of frames, Embedding size, batch size, epochs, LSTM Block or Fully Connected Layers. The vanilla versions of these networks were trained on only 1429 videos due to storage constraints, contrary to 5358 train videos and 1429 validation videos used by the baseline models. Despite this limitation, all three vanilla architectures often slightly outperformed the baselines or delivered comparable results. Although the performance was not significantly greater than the state-of-the-art results, I have successfully demonstrated through Experiments 5-11 on the Inception-Resnet-V1-based model that the proposed architectures have a great potential to outperform the baselines substantially.
 <br>
 This project’s overarching objective was to demonstrate the potential of a new approaches for e-learning emotion recognition which the research community could further
