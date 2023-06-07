@@ -4,10 +4,10 @@
 E-Learning platforms are most effective when personalised, leading to higher engagement levels and promoting positive, sustained use. In their current state, these platforms have been designed as a one-size-fits-all solution with no adaptation to the emotional and cognitive abilities of students. By understanding learner engagement and other mental states at various junctures of the learning process and how these change throughout the learning activity, we can intuitively design interfaces that support better learner cognition, help decrease dropout rates, and provide a personalised learning experience.
 <br><br>
 In this work, I propose an end-to-end pipeline for “Multi-task Learning of Student Affect Recognition from Facial Expressions in-the-wild”. I have experimented with three novel Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) hybrid networks. 
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/IoU.png" />
+<center><img src="Images/DAiSEE.jpg" /></center>
 Student mental state recognition in the wild has been formulated as a Spatio-temporal problem, and the proposed networks are trained and evaluated on the DAiSEE e-learning video dataset. The deep CNN models serve as feature extractors to produce spatial feature embeddings from successive video frames. The LSTM-based sequence learning arm captures the temporal changes in videos to determine how the mental states change over time. The project also investigates the effects of modifying various parameters and specifications of these networks.
 <br>
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/IoU.png" />
+<center><img src="Images/block diagram.png" width ="50%" height="50%" /></center>
 The contribution of this work is three-fold:
 1. A Proof-of-Concept(POC) for multi-task video classification of student mental States. The proposed approach predicts the level (very low, low, high and very
 high) of four student mental states - Engagement, Confusion, Boredom, Frustration.
@@ -20,7 +20,7 @@ sequence learning via LSTMs.
 • Feature Extractor 3: Inception-ResNet-V1 [Szegedy et al. (2015)] pre-trained on VGGFace2 [Cao et al. (2018)].
 
 ### Experiments
-<img src="Images/All_Experiments.png" width ="50% height="50%"/>
+<center><img src="Images/All_Experiments.png" width ="50%" height="50%"/></center>
 11 Experiments were conducted with the three proposed pipelines, each experiment differing in Train Data size, No. of frames, Embedding size, batch size, epochs, LSTM Block or Fully Connected Layers. 
 
 ### Results
